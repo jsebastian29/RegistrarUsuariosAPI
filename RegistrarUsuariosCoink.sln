@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrarUsuariosCoink", "RegistrarUsuariosCoink\RegistrarUsuariosCoink.csproj", "{22817B99-24DB-4784-9F8E-3D59469E4C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{99A124AE-08CC-4D6C-9982-FD2DEBF89E7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22817B99-24DB-4784-9F8E-3D59469E4C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22817B99-24DB-4784-9F8E-3D59469E4C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22817B99-24DB-4784-9F8E-3D59469E4C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22817B99-24DB-4784-9F8E-3D59469E4C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A124AE-08CC-4D6C-9982-FD2DEBF89E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A124AE-08CC-4D6C-9982-FD2DEBF89E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A124AE-08CC-4D6C-9982-FD2DEBF89E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A124AE-08CC-4D6C-9982-FD2DEBF89E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D6BE5D-B697-4363-B336-1C7A38E44045}
+	EndGlobalSection
+EndGlobal

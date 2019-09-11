@@ -1,0 +1,61 @@
+﻿@model IEnumerable<RegistrarUsuariosCoink.Models.ListUsuarioViewModel>
+
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+<h2>Todos los usuarios</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Pais)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Departamento)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <th></th>
+        </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pais)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Departamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ciudad)
+                </td>
+            </tr>
+        }
+
+</table>
